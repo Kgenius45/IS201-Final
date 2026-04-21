@@ -1,0 +1,73 @@
+/* Requirement: Custom background color (Deep Green/Grass theme) */
+body {
+    background-color: #e8f0e8;
+    margin: 0;
+    padding: 0;
+    /* Requirement: Font family style */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    /* Requirement: Font color style */
+    color: #2c3e50;
+}
+
+/* Requirement: Div 1 - Header/Hero block */
+.stat-header {
+    background-color: #041e42; /* Classic Baseball Navy */
+    color: #ffffff;
+    padding: 50px 10px;
+    text-align: center;
+    border-bottom: 5px solid #bf0d3e; /* Baseball Red accent */
+}
+
+/* Requirement: Div 2 - Main container block */
+.main-wrapper {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+/* Requirement: Div 3 - Individual content block styling */
+.content-box {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Requirement: Style definitions for colors and specific fonts */
+h2 {
+    color: #041e42;
+    font-family: Georgia, serif;
+    border-left: 5px solid #bf0d3e;
+    padding-left: 15px;
+}
+
+.feature-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.video-container {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.top-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #bf0d3e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-link:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
